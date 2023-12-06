@@ -19,6 +19,7 @@ const bannerSlider = new Swiper("#banner .banner-slider .swiper", {
   spaceBetween: 40,
   loop: true,
   simulateTouch: false,
+  noSwiping: true,
   autoplay: {
     delay: 1,
   },
